@@ -5,7 +5,7 @@ description = "Hugo static-site theme for Obsidian-style Markdown notebooks with
 homepage = "https://github.com/ShawnSWu/hugo-kidiverse"
 demosite = "https://shawnswu.github.io/KidiVerse/"
 tags = ["responsive", "minimal", "dark", "obsidian", "knowledge-base", "wiki", "notes", "markdown", "graph", "ai"]
-features = ["responsive", "dark mode", "sidebar", "obsidian-compatible", "semantic-graph", "search"]
+features = ["responsive", "dark mode", "sidebar", "obsidian-compatible", "semantic-graph"]
 min_version = "0.90.0"
 
 [author]
