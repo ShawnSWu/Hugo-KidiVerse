@@ -1,0 +1,30 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "KidiVerse Demo"
+theme = "kidiverse"
+
+[params]
+  siteName = "KidiVerse Demo"
+  description = "A Hugo static-site theme for Obsidian-style Markdown notebooks with AI semantic graph visualization"
+  author = "Shawn Wu"
+  
+  # Theme-specific options
+  enableDarkMode = true
+  enableSearch = true
+  enableGraph = true
+  sidebarWidth = "280px"
+  accentColor = "#7C3AED"
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Graph"
+    url = "/graph/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
