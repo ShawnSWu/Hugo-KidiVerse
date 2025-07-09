@@ -1,30 +1,15 @@
-baseURL = "https://example.com/"
+# Kidiverse demo site configuration
+baseURL = "https://example.com/"  # change to your own domain when deploying
 languageCode = "en-us"
-title = "KidiVerse Demo"
+title = "Kidiverse Demo Site"
+
+# Tell Hugo to load the theme from one directory above exampleSite/
+# (Kidiverse lives in the repository root)
 theme = "kidiverse"
+themesDir = ".."
+
+disableKinds = ["taxonomy", "term"]  # demo site keeps output minimal
 
 [params]
-  siteName = "KidiVerse Demo"
-  description = "A Hugo static-site theme for Obsidian-style Markdown notebooks with AI semantic graph visualization"
-  author = "Shawn Wu"
-  
-  # Theme-specific options
-  enableDarkMode = true
-  enableSearch = true
-  enableGraph = true
-  sidebarWidth = "280px"
-  accentColor = "#7C3AED"
-  
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Graph"
-    url = "/graph/"
-    weight = 2
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
+  description = "Personal knowledge garden powered by Kidiverse"
+  # You can copy more advanced params from ../exampleSite/config.toml in the main repo
